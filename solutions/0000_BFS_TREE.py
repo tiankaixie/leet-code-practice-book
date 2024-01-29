@@ -29,7 +29,7 @@ length of the queue before looping through it.
 from collections import deque
 from typing import List, Optional
 class TreeNode:
-    def __init__(self, val:int):
+    def __init__(self, val: int):
         self.val = val
         self.left: TreeNode | None = None
         self.right: TreeNode | None = None
