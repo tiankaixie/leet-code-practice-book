@@ -32,7 +32,7 @@ def func():
 import unittest
 
 class TestThis(unittest.TestCase):
-    def test_two_sum_no_solution(self):
+    def test_basic(self):
         self.assertEqual(func(), 0)
 
 if __name__ == '__main__':
